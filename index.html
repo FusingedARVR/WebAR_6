@@ -157,12 +157,12 @@
           streamingAssetsUrl: "StreamingAssets",
           companyName: "FusingEducation_AR",
           productName: "WebAR_6_MelroseSchool",
-          productVersion: "0.0.28",
+          productVersion: "0.0.30",
           showBanner: unityShowBanner,
         };
         // Rendimiento móvil: evita renderizar a DPR 3 en pantallas de alta densidad.
-        // 1.5 mantiene nitidez suficiente y reduce el fill-rate aproximadamente un 75 %.
-        config.devicePixelRatio = Math.min(window.devicePixelRatio || 1, 1.5);
+        // 2.0 mantiene buena nitidez y reduce el fill-rate aproximadamente un 56 %.
+        config.devicePixelRatio = Math.min(window.devicePixelRatio || 1, 2.5);
         // By default Unity keeps WebGL canvas render target size matched with
         // the DOM size of the canvas element (scaled by window.devicePixelRatio)
         // Set this to false if you want to decouple this synchronization from
